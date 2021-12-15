@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #dbc3c3;
+    color: #743b3b;
+
+    .container {
+        max-width: 450px;
+        min-width: 400px;
+
+        .title {
+            font-weight: 700;
+            font-size: 50px;
+        }
+
+        .form-rounded {
+            height: 55px;
+            border-radius: 5em;
+        }
+
+        .button {
+            background-color: #743b3b;
+            color: #dbc3c3;
+            height: 55px;
+            display: flex;
+            margin-left: 425px;
+            margin-top: -55px;
+            padding: 5px 15px;
+            font-size: 15px;
+            border-radius: 5em;
+
+        }
+
+        .weatherContainer {
+            h1 {
+                @include center();
+                margin-top: 50px;
+                font-weight: 650;
+                font-size: 50px;
+            }
+
+            p {
+                @include center();
+                text-transform: capitalize;
+                font-weight: 550;
+                font-size: 35px;
+            }
+
+            .temperature {
+                @include center();
+                font-weight: 550;
+                font-size: 35px;
+          }
+
+            .humidity {
+                @include center();
+
+                .level {
+                    .h {
+                        font-weight: 550;
+                        font-size: 35px;
+                    }
+
+                    .hum {
+                        font-weight: 550;
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+}

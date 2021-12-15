@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #dbc3c3;
+  color: #743b3b;
+}
+
+body .container {
+  max-width: 450px;
+  min-width: 400px;
+}
+
+body .container .title {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+body .container .form-rounded {
+  height: 55px;
+  border-radius: 5em;
+}
+
+body .container .button {
+  background-color: #743b3b;
+  color: #dbc3c3;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 425px;
+  margin-top: -55px;
+  padding: 5px 15px;
+  font-size: 15px;
+  border-radius: 5em;
+}
+
+body .container .weatherContainer h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  font-weight: 650;
+  font-size: 50px;
+}
+
+body .container .weatherContainer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  font-weight: 550;
+  font-size: 35px;
+}
+
+body .container .weatherContainer .temperature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 550;
+  font-size: 35px;
+}
+
+body .container .weatherContainer .humidity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .weatherContainer .humidity .level .h {
+  font-weight: 550;
+  font-size: 35px;
+}
+
+body .container .weatherContainer .humidity .level .hum {
+  font-weight: 550;
+  font-size: 35px;
+}
+/*# sourceMappingURL=sassy.css.map */
